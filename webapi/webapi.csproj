@@ -5,10 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="2.6.0" />
+
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.AspNetCore.Mvc\Volo.Abp.AspNetCore.Mvc.csproj" />
     <ProjectReference Include="..\contract\contract.csproj" />
   </ItemGroup>
 

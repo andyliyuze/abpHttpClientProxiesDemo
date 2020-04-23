@@ -14,10 +14,10 @@ namespace apiClient
 
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            context.Services.AddHttpClientProxies(
-                typeof(contractModule).Assembly,
-                RemoteServiceName
-            );
+            //context.Services.AddHttpClientProxies(
+            //    typeof(contractModule).Assembly,
+            //    RemoteServiceName
+            //);
 
             context.Services.AddHttpClientProxy<IUser>(
                  RemoteServiceName + "User"

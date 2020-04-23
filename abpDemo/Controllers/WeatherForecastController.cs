@@ -27,9 +27,9 @@ namespace abpDemo.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            var user =
-               _user.GetUser();
+            var user = _user.GetUser();
             var rng = new Random();
+            Console.WriteLine("你好啊");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
@@ -38,6 +38,5 @@ namespace abpDemo.Controllers
             })
             .ToArray();
         }
-
     }
 }

@@ -7,7 +7,6 @@ using Volo.Abp.AspNetCore.Mvc;
 namespace webapi
 {
     [RemoteService]
-    // [Area("productManagement")]
     [Route("api/user")]
     public class UserController : AbpController, IUser
     {
