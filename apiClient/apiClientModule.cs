@@ -18,6 +18,11 @@ namespace apiClient
                 typeof(contractModule).Assembly,
                 RemoteServiceName
             );
+
+            context.Services.AddHttpClientProxy<IUser>(
+                 RemoteServiceName + "User"
+            );
+
         }
     }
 }
