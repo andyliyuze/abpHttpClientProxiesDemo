@@ -46,7 +46,7 @@ namespace ConsoleApp1
 
             try
             {
-                var output = _user.GetUser();
+                var output =await _user.GetUser();
                 Console.WriteLine(output.Email);
 
             }

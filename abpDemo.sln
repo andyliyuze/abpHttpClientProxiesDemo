@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore.Mvc", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.AspNetCore", "..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.AspNetCore\Volo.Abp.AspNetCore.csproj", "{66F97F7C-EE46-4E90-B062-1107FD09C7D0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Castle.Core.AsyncInterceptor", "..\Castle.Core.AsyncInterceptor-master\src\Castle.Core.AsyncInterceptor\Castle.Core.AsyncInterceptor.csproj", "{24C53D09-DBA1-42B9-B08D-C5DBA0643CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "panorama", "panorama\panorama.csproj", "{3645FE71-C570-4143-A0AA-BC6D04A04723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{66F97F7C-EE46-4E90-B062-1107FD09C7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66F97F7C-EE46-4E90-B062-1107FD09C7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66F97F7C-EE46-4E90-B062-1107FD09C7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C53D09-DBA1-42B9-B08D-C5DBA0643CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C53D09-DBA1-42B9-B08D-C5DBA0643CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C53D09-DBA1-42B9-B08D-C5DBA0643CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C53D09-DBA1-42B9-B08D-C5DBA0643CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

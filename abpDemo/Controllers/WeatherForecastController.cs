@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using contract;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Volo.Abp.Http.Client.DynamicProxying;
 
 namespace abpDemo.Controllers
 {
@@ -25,9 +27,10 @@ namespace abpDemo.Controllers
         };
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public async Task<IEnumerable<WeatherForecast>> Get()
         {
-            var user = _user.GetUser();
+            var interceptorType = typeof(DynamicHttpProxyInterceptor<>).MakeGenericType(typeof(IUser));
+            var user = await _user.GetUser();
             var rng = new Random();
             Console.WriteLine("你好啊");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

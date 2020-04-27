@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.Ddd.Application\Volo.Abp.Ddd.Application.csproj" />
     <ProjectReference Include="..\apiClient\apiClient.csproj" />
+    <ProjectReference Include="..\contract\contract.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,7 @@
 ﻿using contract;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Threading.Tasks;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
 
@@ -20,9 +21,9 @@ namespace webapi
         [HttpGet]
         [Route("getUser")]
 
-        public UserDTO GetUser()
+        public async Task<UserDTO> GetUser()
         {
-            var obj = _user.GetUser();
+            var obj = await _user.GetUser();
             return obj;
         }
     }

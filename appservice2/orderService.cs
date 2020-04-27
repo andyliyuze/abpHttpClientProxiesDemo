@@ -22,7 +22,7 @@ namespace appservice2
 
         public OrderDTO GetOrder()
         {
-            var user =_user.GetUser();
+            var user =_user.GetUser().Result;
 
             var order = new OrderDTO() { BuyerName = user.Name, OrderNo = "123" };
 

@@ -5,12 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.Core\Volo.Abp.Core.csproj" />
-    <ProjectReference Include="..\..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.Ddd.Application\Volo.Abp.Ddd.Application.csproj" />
+    <PackageReference Include="Volo.Abp.Core" Version="2.6.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="2.6.0" />
   </ItemGroup>
 
 </Project>

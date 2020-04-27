@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.AspNetCore.Mvc\Volo.Abp.AspNetCore.Mvc.csproj" />
+    <ProjectReference Include="..\..\Castle.Core.AsyncInterceptor-master\src\Castle.Core.AsyncInterceptor\Castle.Core.AsyncInterceptor.csproj" />
     <ProjectReference Include="..\appservice2\appservice2.csproj" />
   </ItemGroup>
 

@@ -9,11 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
- 
+    <PackageReference Include="Volo.Abp.AspNetCore" Version="2.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\abp-dev (1)\abp-dev\framework\src\Volo.Abp.AspNetCore\Volo.Abp.AspNetCore.csproj" />
     <ProjectReference Include="..\appservice\appservice.csproj" />
     <ProjectReference Include="..\webapi\webapi.csproj" />
   </ItemGroup>
