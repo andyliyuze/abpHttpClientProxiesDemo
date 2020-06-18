@@ -14,11 +14,14 @@ namespace abpDemo.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly IUser _user;
+        private readonly IFackService _fackService;
+
         private readonly ILogger<WeatherForecastController> _logger;
-        public WeatherForecastController(IUser user, ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(IUser user, ILogger<WeatherForecastController> logger, IFackService fackService)
         {
             _user = user;
             _logger = logger;
+            _fackService = fackService;
         }
 
         private static readonly string[] Summaries = new[]
@@ -30,6 +33,7 @@ namespace abpDemo.Controllers
         public async Task<IEnumerable<WeatherForecast>> Get()
         {
             var interceptorType = typeof(DynamicHttpProxyInterceptor<>).MakeGenericType(typeof(IUser));
+            _fackService.SayHello();
             var user = await _user.GetUser();
             var rng = new Random();
             Console.WriteLine("你好啊");

@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="2.1.0" />
     <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="2.6.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Castle.Core.AsyncInterceptor-master\src\Castle.Core.AsyncInterceptor\Castle.Core.AsyncInterceptor.csproj" />
     <ProjectReference Include="..\appservice2\appservice2.csproj" />
   </ItemGroup>
 
