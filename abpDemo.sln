@@ -19,10 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appservice2", "appservice2\appservice2.csproj", "{B430D027-4A5E-4017-963C-4668C038B513}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "panorama", "panorama\panorama.csproj", "{3645FE71-C570-4143-A0AA-BC6D04A04723}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vue", "Vue\Vue.csproj", "{91D702A2-06D7-44F4-B47B-D9D1CE4C8913}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,14 +57,6 @@ Global
 		{B430D027-4A5E-4017-963C-4668C038B513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B430D027-4A5E-4017-963C-4668C038B513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B430D027-4A5E-4017-963C-4668C038B513}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3645FE71-C570-4143-A0AA-BC6D04A04723}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91D702A2-06D7-44F4-B47B-D9D1CE4C8913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91D702A2-06D7-44F4-B47B-D9D1CE4C8913}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91D702A2-06D7-44F4-B47B-D9D1CE4C8913}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91D702A2-06D7-44F4-B47B-D9D1CE4C8913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

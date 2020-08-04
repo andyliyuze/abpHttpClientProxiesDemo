@@ -12,6 +12,7 @@ namespace appservice
     [Myaspect]
     public class FackService : ApplicationService, IFackService
     {
+        //Volo.Abp.EventBus.IEventBus
         public void SayHello()
         {
             new HttpClient().GetAsync("http://www.baidu.com").Wait();
